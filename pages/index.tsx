@@ -10,7 +10,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=""></main>
+      <main className="">
+        <div className="bg-no-repeat bg-hero h-hero rounded-2xl  lg:mx-auto lg:w-[1380px] lg:mt-[30px] "></div>
+      </main>
     </div>
   );
 };
