@@ -7,8 +7,12 @@ module.exports = {
   theme: {
     boxShadow: {
       form: "0px 4px 16px rgba(141, 211, 187, 0.15)",
+      card: "0px 4px 16px rgba(17, 34, 17, 0.05)",
+      cardReview: "0px 4px 16px rgba(17, 34, 17, 0.1)",
     },
     backgroundImage: {
+      "hero-card": "url('../assets/images/Rectangle 41.png')",
+      "hero-card2": "url('../assets/images/Rectangle 40.png')",
       "hero-bg": "url('../assets/images/hero img.png')",
       hero: " linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),url('../assets/images/hero img.png')",
     },
@@ -20,6 +24,7 @@ module.exports = {
         font2: ["Lexend Deca", "sans-serif"],
       },
       colors: {
+        reviewLinear: "rgba(141, 211, 187, 0.4)",
         "green-ish": " #112211",
         border: "#79747E",
         "l-green": "#8DD3BB",
