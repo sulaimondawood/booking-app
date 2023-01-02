@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +12,21 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        <div className="bg-no-repeat bg-hero h-hero rounded-2xl  lg:mx-auto lg:w-[1380px] lg:mt-[30px] "></div>
+        <div className="bg-no-repeat bg-hero h-hero rounded-2xl  lg:mx-auto lg:w-[1380px] lg:mt-[30px] ">
+          <Header />
+
+          <div className="pt-14">
+            <h1 className="text-5xl text-center text-white font-bold">
+              Helping Others
+            </h1>
+            <h1 className="text-[80px] text-center text-white  font-bold">
+              Live & Travel
+            </h1>
+            <p className="text-center text-xl text-white font-semibold">
+              Special offers to suit your plan
+            </p>
+          </div>
+        </div>
       </main>
     </div>
   );

@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       "hero-bg": "url('../assets/images/hero img.png')",
-      hero: " linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),url('../assets/images/hero img.png')",
+      hero: " linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),url('../assets/images/hero img.png')",
     },
     height: {
       hero: "600px",
