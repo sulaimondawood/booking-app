@@ -1,4 +1,5 @@
 import React from "react";
+import NewImg from "../assets/icons/newsletter img.svg";
 
 const NewsLetter = () => {
   return (
@@ -25,6 +26,8 @@ const NewsLetter = () => {
           </button>
         </form>
       </div>
+
+      <img src={NewImg.src} alt="" />
     </div>
   );
 };

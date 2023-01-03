@@ -16,10 +16,10 @@ module.exports = {
       "hero-bg": "url('../assets/images/hero img.png')",
       hero: " linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),url('../assets/images/hero img.png')",
     },
-    height: {
-      hero: "600px",
-    },
     extend: {
+      height: {
+        hero: "600px",
+      },
       fontFamily: {
         font2: ["Lexend Deca", "sans-serif"],
       },
@@ -31,6 +31,7 @@ module.exports = {
         "news-letter": "#CDEAE1",
         "mint-green": "#8DD3BB",
         black: "#1C1B1F",
+        "new-red": "#FF8682",
       },
       width: {
         "fixed-width": "1232px",

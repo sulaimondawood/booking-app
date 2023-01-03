@@ -110,17 +110,16 @@ const Home: NextPage = () => {
             </button>
           </div>
 
-          <Swiper spaceBetween={50} slidesPerView={3}>
-            <div
-              className="flex mb-24  gap-12  justify-center mx-auto
+          {/* <Swiper spaceBetween={50} slidesPerView={3}> */}
+          <div
+            className="flex mb-24  gap-12  justify-center mx-auto
             "
-            >
-              <ReviewCard />
-              <ReviewCard />
-              <ReviewCard />
-              <ReviewCard />
-            </div>
-          </Swiper>
+          >
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+          </div>
+          {/* </Swiper> */}
         </div>
 
         {/* footer? */}
