@@ -28,6 +28,12 @@ module.exports = {
         "green-ish": " #112211",
         border: "#79747E",
         "l-green": "#8DD3BB",
+        "news-letter": "#CDEAE1",
+        "mint-green": "#8DD3BB",
+        black: "#1C1B1F",
+      },
+      width: {
+        "fixed-width": "1232px",
       },
     },
   },

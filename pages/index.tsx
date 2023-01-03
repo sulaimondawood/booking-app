@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import BookCard from "../components/BookCard";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import HeroInputsBook from "../components/HeroInputsBook";
 
@@ -8,6 +9,11 @@ import Rec from "../assets/images/Rectangle 40.png";
 import Rec1 from "../assets/images/Rectangle 41.png";
 import Send from "../assets/icons/Send.svg";
 import ReviewCard from "../components/ReviewCard";
+
+// Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+// Swiper
 
 const Home: NextPage = () => {
   return (
@@ -104,15 +110,22 @@ const Home: NextPage = () => {
             </button>
           </div>
 
-          <div
-            className="flex mb-24  gap-12  justify-center mx-auto
+          <Swiper spaceBetween={50} slidesPerView={3}>
+            <div
+              className="flex mb-24  gap-12  justify-center mx-auto
             "
-          >
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-          </div>
+            >
+              <ReviewCard />
+              <ReviewCard />
+              <ReviewCard />
+              <ReviewCard />
+            </div>
+          </Swiper>
         </div>
+
+        {/* footer? */}
+
+        <Footer />
       </main>
     </div>
   );
