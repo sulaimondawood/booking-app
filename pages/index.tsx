@@ -38,7 +38,7 @@ const Home: NextPage = () => {
               Special offers to suit your plan
             </p>
           </div>
-          <HeroInputsBook />
+          <HeroInputsBook text={false} />
           {/* ?plan your trip */}
         </div>
 
