@@ -88,7 +88,7 @@ const login = () => {
             <button className="border w-40 rounded-md px-6 py-4 border-mint-green">
               <img src={Google.src} alt="" />
             </button>
-            <button className="border w-40 rounded-md px-6 py-4 border-mint-green">
+            <button className="border w-40 text-center rounded-md px-6 py-4 border-mint-green">
               <img src={Apple.src} alt="" />
             </button>
           </div>

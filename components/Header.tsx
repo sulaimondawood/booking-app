@@ -9,11 +9,15 @@ export default function Header() {
       <div className="lg:flex lg:gap-8">
         <div className="lg:flex lg:gap-2">
           <img src={flight.src} alt="" />
-          <p className="font-semibold text-white">Find Flight</p>
+          <Link href="/find-flight" className="font-semibold text-white">
+            Find Flight
+          </Link>
         </div>
         <div className="lg:flex lg:gap-2">
           <img src={HotelBook.src} alt="" />
-          <p className="font-semibold text-white">Find Stays</p>
+          <Link href="/find-stays" className="font-semibold text-white">
+            Find Stays
+          </Link>
         </div>
       </div>
 

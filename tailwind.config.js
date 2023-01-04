@@ -15,10 +15,14 @@ module.exports = {
       "hero-card2": "url('../assets/images/Rectangle 40.png')",
       "hero-bg": "url('../assets/images/hero img.png')",
       hero: " linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),url('../assets/images/hero img.png')",
+      "flight-hero":
+        "linear-gradient(90deg, rgba(0, 35, 77, 0.63) 11.46%, rgba(0, 35, 77, 0) 77.37%), url('../assets/images/flighthero.jpg')",
+      // "flight-hero": "url('../assets/images/frame 36.png')",
     },
     extend: {
       height: {
         hero: "600px",
+        "flight-height": "537px",
       },
       fontFamily: {
         font2: ["Lexend Deca", "sans-serif"],
