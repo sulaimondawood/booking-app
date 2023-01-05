@@ -10,8 +10,15 @@ import F4 from "../assets/images/f4.png";
 import Card from "../assets/images/card.jpg";
 
 import FlightCard from "../components/FlightCard";
+import { useRouter } from "next/router";
 
 export default function Flight() {
+  const router = useRouter();
+
+  const navigateFlight = (): void => {
+    router.push("/flight-details");
+  };
+
   return (
     <main className="">
       <PageHeader />
@@ -146,7 +153,10 @@ export default function Flight() {
               <p className="text-white">An amazing journey</p>
               <p className="text-2xl font-bold text-white">$700</p>
             </div>
-            <button className="bg-l-green w-full rounded-md py-4 mt-4 text-green-ish">
+            <button
+              onClick={navigateFlight}
+              className="bg-l-green w-full rounded-md py-4 mt-4 text-green-ish"
+            >
               Book Flight
             </button>
           </div>
