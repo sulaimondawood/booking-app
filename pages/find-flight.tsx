@@ -122,44 +122,78 @@ export default function Flight() {
 
       {/* slddlldj */}
       <div className="max-w-[1440px] py-20 px-24 mx-auto">
-        {/* gallery */}
-
-        <div className="flex gap-6 justify-between ">
-          <div className="bg-mint-green  flex-1 p-6 rounded-3xl">
-            <div className="flex justify-between items-center">
-              <h1 className="text-green-ish text-4xl w-[363px]">
-                Backpacking Sri Lanka
-              </h1>
-              <div className="flex flex-col bg-white rounded-md p-2 gap-2">
-                <p className="text-green-ish">From</p>
-                <p className="text-green-ish font-semibold text-2xl">$700</p>
-              </div>
-            </div>
-            <p className="text-green-ish pt-6 pb-24">
-              Traveling is a unique experience as it's the best way to unplug
-              from the pushes and pulls of daily life. It helps us to forget
-              about our problems, frustrations, and fears at home. During our
-              journey, we experience life in different ways. We explore new
-              places, cultures, cuisines, traditions, and ways of living.
+        <div className="flex mb-10  flex-col lg:flex-row lg:items-center lg:justify-between  ">
+          <div className="flex-col flex">
+            <h1 className="text-3xl font-semibold">Fall into travel</h1>
+            <p className="text-lg opacity-75 pt-4 max-w-[1000px] leading-5">
+              Going somewhere to celebrate this season? Whether you’re going
+              home or somewhere to roam, we’ve got the travel tools to get you
+              to your destination.
             </p>
+          </div>
+          <button className="text-green-ish py-3 p-4 font-medium border-l-green border rounded-md ">
+            See all
+          </button>
+        </div>
 
-            <button className="text-green-ish bg-white w-full py-4 rounded">
+        {/* galler? */}
+        <div className="grid grid-cols-4 gap-4 h-[420px] ">
+          <div className="bg-grid-img object-cover object-center rounded-lg p-6  gap-6 ">
+            <h1 className="text-2xl font-semibold pt-72 text-white ">
+              Melbourne
+            </h1>
+            <div className="flex items-center justify-between">
+              <p className="text-white">An amazing journey</p>
+              <p className="text-2xl font-bold text-white">$700</p>
+            </div>
+            <button className="bg-l-green w-full rounded-md py-4 mt-4 text-green-ish">
               Book Flight
             </button>
           </div>
-          <div className="flex-1 gap-6 grid grid-cols-2">
-            <img className="w-[318px] h-[200px]" src={F1.src} alt="" />
-            <img src={F2.src} alt="" className="w-[318px] h-[200px]" />
-            <img src={F3.src} alt="" className="w-[318px] h-[200px]" />
-            <img src={F4.src} alt="" className="w-[318px] h-[200px]" />
+          <div className="bg-grid-img3 object-contain object-right rounded-lg p-6  gap-6 ">
+            <h1 className="text-2xl font-semibold pt-72 text-white ">
+              Melbourne
+            </h1>
+            <div className="flex items-center justify-between">
+              <p className="text-white">An amazing journey</p>
+              <p className="text-2xl font-bold text-white">$700</p>
+            </div>
+            <button className="bg-l-green w-full rounded-md py-4 mt-4 text-green-ish">
+              Book Flight
+            </button>
+          </div>
+          <div className="bg-grid-img object-cover object-center rounded-lg p-6  gap-6 ">
+            <h1 className="text-2xl font-semibold pt-72 text-white ">
+              Melbourne
+            </h1>
+            <div className="flex items-center justify-between">
+              <p className="text-white">An amazing journey</p>
+              <p className="text-2xl font-bold text-white">$700</p>
+            </div>
+            <button className="bg-l-green w-full rounded-md py-4 mt-4 text-green-ish">
+              Book Flight
+            </button>
+          </div>
+          <div className="bg-grid-img3 object-contain object-right rounded-lg p-6  gap-6 ">
+            <h1 className="text-2xl font-semibold pt-72 text-white ">
+              Melbourne
+            </h1>
+            <div className="flex items-center justify-between">
+              <p className="text-white">An amazing journey</p>
+              <p className="text-2xl font-bold text-white">$700</p>
+            </div>
+            <button className="bg-l-green w-full rounded-md py-4 mt-4 text-green-ish">
+              Book Flight
+            </button>
           </div>
         </div>
       </div>
+
       {/* slddlldj */}
       <div className="max-w-[1440px] py-20 px-24 mx-auto">
         <div className="flex mb-10  flex-col lg:flex-row lg:items-center lg:justify-between  ">
           <div className="flex-col flex">
-            <h1 className="text-3xl font-semibold">Let's go places together</h1>
+            <h1 className="text-3xl font-semibold">Fall into travel</h1>
             <p className="text-lg opacity-75 pt-4 max-w-[1000px] leading-5">
               Going somewhere to celebrate this season? Whether you’re going
               home or somewhere to roam, we’ve got the travel tools to get you

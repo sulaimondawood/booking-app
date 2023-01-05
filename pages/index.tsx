@@ -121,10 +121,6 @@ const Home: NextPage = () => {
           </div>
           {/* </Swiper> */}
         </div>
-
-        {/* footer? */}
-
-        <Footer />
       </main>
     </div>
   );

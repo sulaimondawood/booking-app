@@ -14,6 +14,9 @@ module.exports = {
       "hero-card": "url('../assets/images/Rectangle 41.png')",
       "hero-card2": "url('../assets/images/Rectangle 40.png')",
       "hero-bg": "url('../assets/images/hero img.png')",
+      "grid-img": "url('../assets/images/paris.jpg')",
+      "grid-img2": "url('../assets/images/paris2.jpg')",
+      "grid-img3": "url('../assets/images/paris3.jpg')",
       "bg-green": "url('../assets/images/bg-green.png')",
       hero: " linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),url('../assets/images/hero img.png')",
       "flight-hero":
